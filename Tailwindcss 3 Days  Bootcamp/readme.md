@@ -96,6 +96,32 @@ npm install tailwindcss @tailwindcss/cli
 
 <br>
 
-### <p align="center"> **Day 2 Learning** </p>
+### <p align='center'>📘 **Day 2 Learning**</p> 
 
-##
+<br>
+
+
+
+## 🔧 Crafting Pages and Components
+
+- ✨ `hover:` in Tailwind CSS  
+- 🎞️ `transition` in Tailwind CSS  
+- ⏱️ `duration` in Tailwind CSS  
+- 🧰 `flexbox` in Tailwind CSS  
+- 🧮 `grid` in Tailwind CSS  
+
+<br>
+
+### 📱 Responsive Classes in Tailwind CSS
+
+- 🧱 `grid-cols-1 / 2 / 3`  
+- 🔁 `flex-wrap`  
+
+
+> 💡 **Note:**  
+> If you apply `dark:bg-white`, the background will change to white **only when the system theme is set to dark**.  
+
+<br>
+
+### 🧵 `@apply`  
+Use `@apply` in Tailwind CSS to combine utility classes in your custom CSS for cleaner and more maintainable code.
