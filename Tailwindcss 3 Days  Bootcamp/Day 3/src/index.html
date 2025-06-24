@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Web Page</title>
+    <link rel="stylesheet" href="output.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-openSans container mx-auto">
+
+    <!-- header -->
+    <header class="mx-auto flex justify-between items-center p-6">
+        <h1><a href="" class="font-bold text-2xl text-blue-400">BrandName</a></h1>
+        <ul class="hidden md:flex space-x-6">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href=""
+                    class="px-4 py-3 bg-blue-700 text-white rounded-lg transition duration-300 hover:bg-blue-900 hover:cursor-pointer">Login</a>
+            </li>
+        </ul>
+    </header>
+
+    <!-- Main banner -->
+    <section id="hero" class="grid items-center grid-cols-1 md:grid-cols-2 px-6 py-16">
+        <div id="left" class="max-w-[550px] mb-5 md:mb-0">
+            <h2 class="text-2xl sm:text-3xl md:text-5xl dark:text-white font-extrabold mb-4">Bulid Modern UIs Fast with <span
+                    class="text-blue-400">Tailwindcss v4</span></h2>
+            <p class="mb-4">A utility-first CSS framework packed with features to help you build beautiful responsive
+                websites with
+                ease.</p>
+            <button
+                class="px-4 py-3 bg-blue-700 text-white rounded-lg transition duration-300 hover:bg-blue-900 hover:cursor-pointer">Get
+                Started</button>
+        </div>
+        <div id="right">
+            <img src="images/main image.jpg" alt="Web Design Illustration" class="aspect-video rounded-lg shadow-lg">
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="px-6 py-16">
+        <h2 class="text-center text-3xl font-bold mb-6">Features</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="feature bg-blue-400 text-white dark:bg-gray-700 px-6 py-8 rounded-lg flex flex-col items-center">
+                <span class="text-2xl">⚡</span>
+                <h3 class="text-lg font-semibold mt-2">Blazing Fast</h3>
+                <p class="text-justify mt-2">Tailwind v4 is optimized for performance with a new engine and instant builds.</p>
+            </div>
+            <div class="feature bg-blue-400 text-white dark:bg-gray-700 px-6 py-8 rounded-lg flex flex-col items-center">
+                <span class="text-2xl">🎨</span>
+                <h3 class="text-lg font-semibold mt-2">Utility-First</h3>
+                <p class="text-justify mt-2">Compose any design directly in your HTML using small, reusable classes.</p>
+            </div>
+            <div class="feature bg-blue-400 text-white dark:bg-gray-700 px-6 py-8 rounded-lg flex flex-col items-center">
+                <span class="text-2xl">🌙</span>
+                <h3 class="text-lg font-semibold mt-2">Dark Mode</h3>
+                <p class="text-justify mt-2">Built-in dark mode support with simple class toggling.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Product Section -->
+    <section id="products" class="m-5">
+        <h2 class="text-center text-2xl font-bold mb-5">Product Showcase</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+            <!-- Product 1 -->
+            <div class="product bg-blue-400 text-white dark:bg-gray-700 rounded-lg p-3">
+                <img src="./images/laptop image.jpg" alt="apple laptop" class="rounded-lg object-fit-cover h-48 w-full">
+                <h3 class="mt-2 text-lg font-semibold mb-2">Apple Laptop </h3>
+                <p>A modern product with amazing features and design.</p>
+                <button class="border-blue-500 bg-blue-700 dark:bg-blue-500 border px-3 p-1 rounded-md mt-2 text-lg hover:bg-transparent hover:cursor-pointer hover:border hover:border-blue-700 hover:text-blue-700">Buy Now</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product bg-blue-400 text-white dark:bg-gray-700 rounded-lg p-3">
+                <img src="./images/main image.jpg" alt="apple laptop" class="rounded-lg object-fit-cover h-48 w-full">
+                <h3 class="mt-2 text-lg font-semibold mb-2">Product Two</h3>
+                <p>Experience the next generation of innovation</p>
+                <button class="border-blue-500 bg-blue-700 dark:bg-blue-500 border px-3 p-1 rounded-md mt-2 text-lg hover:bg-transparent hover:cursor-pointer hover:border hover:border-blue-700 hover:text-blue-700">Buy Now</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product bg-blue-400 text-white dark:bg-gray-700 rounded-lg p-3">
+                <img src="./images/mircophone image.jpg" alt="apple laptop" class="rounded-lg object-fit-cover h-48 w-full">
+                <h3  class="mt-2 text-lg font-semibold mb-2">Product Three</h3>
+                <p>Top-rated device modern professionals.</p>
+                <button class="border-blue-500 bg-blue-700 dark:bg-blue-500 border px-3 p-1 rounded-md mt-2 text-lg hover:bg-transparent hover:cursor-pointer hover:border hover:border-blue-700 hover:text-blue-700">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact" class="flex flex-col justify-center items-center gap-3 mt-5 mb-5 m-5">
+            <h2 class="text-center text-2xl font-semibold mt-4 mb-3">Contact us</h2>
+            <form class="dark:bg-gray-800 p-5 rounded-lg bg-blue-400">
+                <div>
+                    <label for="name" class="text-lg text-white  font-semibold ">Name</label><br>
+                    <input type="text" id="name" class="md:w-100 mt-2 dark:bg-gray-900 bg-white p-1">
+                </div>
+                <br>
+                <div>
+                    <label for="email" class="text-lg text-white font-semibold">Email</label><br>
+                    <input type="email" id="email" class="md:w-100 mt-2 dark:bg-gray-900 bg-white p-1">
+                </div>
+                <br>
+                <div>
+                    <label for="message" class="text-lg text-white font-semibold">Message</label><br>
+                    <textarea name="" id="message" class="md:w-100 dark:bg-gray-900 bg-white p-1 mt-2"></textarea>
+                </div>
+        
+                <button class="text-white bg-blue-700 p-2 rounded-md border border-blue-700 hover:text-blue-700 hover:cursor-pointer hover:border-blue-700 hover:bg-transparent mt-3 md:w-100">Send Message</button>
+            </form>
+    </section>
+
+
+    <footer class="text-center">&copy; 2025 BrandName, All rights Reserved</footer>
+
+
+</body>
+
+</html>

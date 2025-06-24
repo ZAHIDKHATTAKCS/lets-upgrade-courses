@@ -125,3 +125,8 @@ npm install tailwindcss @tailwindcss/cli
 
 ### 🧵 `@apply`  
 Use `@apply` in Tailwind CSS to combine utility classes in your custom CSS for cleaner and more maintainable code.
+
+
+day 3
+
+@theme is used for creating your own classes and you can use it like if you want to apply a specific theme on website so you can create it in @theme in input.css
